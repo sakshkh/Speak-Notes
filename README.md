@@ -1,41 +1,39 @@
 🎧 AI Meeting Summarizer
+
 Transform your meeting audio recordings into concise, structured summaries with actionable items.
 
 💡 Features
-Upload a meeting audio file (.mp3, .wav, etc.)
-Transcribe with Faster-Whisper
-Summarize with Hugging Face Transformers (BART model)
-Export summaries as Markdown, JSON, and PDF
+
+📂 Upload a meeting audio file (.mp3, .wav, etc.)
+
+🔊 Transcribe with Faster-Whisper
+
+📝 Summarize with Hugging Face Transformers (BART model)
+
+📤 Export summaries as Markdown, JSON, and PDF
+
 🧠 AI Tools Used
-Hugging Face Transformers: for summarization, action extraction, and meeting classification using BART.
-Faster-Whisper: for fast and accurate offline transcription.
-Gradio: for an easy-to-use web interface.
+
+Hugging Face Transformers: Summarization, action extraction, and meeting classification (BART)
+
+Faster-Whisper: Fast and accurate offline transcription
+
+Gradio: User-friendly web interface
+
 🚧 Challenges Faced
-Managing long transcription times on CPU; resolved by using GPU with model optimization.
-Formatting structured outputs (headings, bullet lists) for PDF generation.
-Ensuring smooth UX while uploading large audio files.
+
+⚡ Long transcription times on CPU → solved using GPU + model optimization
+
+🖋️ Formatting structured outputs (headings, bullet lists) for PDF generation
+
+📁 Handling large audio uploads smoothly in the web interface
+
 🔧 Future Improvements
-Add speaker diarization for speaker labels
-Integrate with Google Calendar to auto-schedule follow-ups
-Add support for multilingual transcription
-Real-time processing
-🚀 Getting Started
-Clone the repository
 
-git clone <your-repo-url>
-cd aistudio-main
-Create and activate a virtual environment
+🗣️ Speaker diarization (speaker labels)
 
-python -m venv .venv
-.\.venv\Scripts\activate
-Install dependencies
+📆 Google Calendar integration for automatic follow-ups
 
-pip install -r requirements.txt
-Run the app
+🌍 Multilingual transcription support
 
-python app.py
-📦 Requirements
-See requirements.txt for all dependencies.
-
-📝 License
-MIT License
+⏱️ Real-time processing
