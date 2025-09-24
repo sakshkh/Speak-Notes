@@ -1,0 +1,9 @@
+gradio>=4.0
+torch
+faster-whisper
+transformers
+markdown2
+pdfkit
+openai
+langchain
+langchain_community
